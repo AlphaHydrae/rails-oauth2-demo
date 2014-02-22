@@ -12,6 +12,9 @@ gem 'sqlite3', '~> 1.3.8'
 # Authentication
 gem 'devise', '~> 3.2.3'
 
+# OAuth
+gem 'doorkeeper', git: 'git@github.com:AlphaHydrae/doorkeeper.git', branch: 'master'
+
 # Templating
 gem 'haml', '~> 4.0.5'
 gem 'haml-rails', '~> 0.5.3'
